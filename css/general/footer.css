@@ -19,17 +19,20 @@
 .footer-links {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
+  font-size: 14px;
 }
 
 .footer-contact {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  font-size: 14px;
+  margin-right: 120px;
 }
 
 .copyright {
-  font-size: 14px;
+  font-size: 12px;
   color: #666;
 }
 
