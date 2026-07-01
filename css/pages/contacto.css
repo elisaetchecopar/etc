@@ -1,3 +1,67 @@
+.menu-page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
 
+.menu-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.menu-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.menu-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 60px 20px 40px;
+}
+
+.logomenu {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 6px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.menu-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.close-btn {
+  margin-top: auto;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(20, 18, 14, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.close-btn img {
+  width: 24px;
+}
 
 /*# sourceMappingURL=contacto.css.map */
