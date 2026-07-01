@@ -525,30 +525,100 @@ img {
   margin-bottom: 12px;
 }
 
-#projectvermut {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 120px;
-  display: flex;
-  justify-content: center;
-}
-#projectvermut div {
-  display: flex;
-  flex-direction: column;
-}
-#projectvermut img {
-  width: 100%;
-  padding-bottom: 0px;
+.about-hero {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
-#projectsSection {
-  margin-top: 50px;
+.hero-nosotros {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
 }
-#projectsSection .downproject {
+.hero-nosotros img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-title {
+  position: absolute;
+  left: 40px;
+  top: 360px;
+}
+.hero-title h1 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.hero-floating-image {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%);
+}
+.hero-floating-image img {
+  width: 500px;
+  display: block;
+}
+
+.hero-location {
+  position: absolute;
+  right: 80px;
+  top: 370px;
+}
+.hero-location p {
+  color: white;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.hero-bottom-text {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: space-between;
-  justify-items: center;
-  margin-bottom: 12px;
+  gap: 60px;
+}
+.hero-bottom-text span {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.hero-bottom-text .etc {
+  color: #000;
+}
+.hero-bottom-text .estudio {
+  color: #fff;
+}
+
+.nosotros-page {
+  padding: 120px 30px 80px;
+}
+
+.about-text {
+  width: 320px;
+  margin-bottom: 180px;
+}
+.about-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 28px;
+}
+
+.about-image {
+  width: 100%;
+}
+.about-image img {
+  width: 100%;
+  display: block;
 }
 
 #projectSitePuie {
@@ -571,34 +641,67 @@ img {
   margin-bottom: 0px !important;
 }
 
-#cafecitopics {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 120px;
+.hero-productos {
+  position: relative;
+  height: 320px;
   display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-#cafecitopics div {
-  display: flex;
-  flex-direction: column;
-}
-#cafecitopics img {
-  width: 100%;
-  padding-bottom: 200px;
+  justify-content: center;
 }
 
-#projectsSection {
-  margin-top: 50px;
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
 }
-#projectsSection .downproject {
+.hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-image {
+  position: relative;
+  z-index: 2;
+  margin-top: 60px;
+  transform: translateY(80px);
+}
+.hero-image img {
+  width: 400px;
+  display: block;
+}
+
+.productos-page {
+  padding: 80px 40px 60px;
+}
+
+.productos-heading {
   display: flex;
   justify-content: space-between;
-  justify-items: center;
-  margin-bottom: 12px;
+  align-items: center;
+  margin-bottom: 70px;
 }
-#projectsSection .downproject p {
-  margin-bottom: 0px !important;
+.productos-heading h1 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.productos-heading p {
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.productos-text {
+  width: 35%;
+  margin-top: 90px;
+  margin-bottom: 120px;
+  margin-left: 40px;
+}
+.productos-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 24px;
 }
 
 .project-video {

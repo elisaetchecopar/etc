@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./images/etc.png">
+    <link rel="shortcut icon" href="/images/etc.png">
     <title>ETC. ESTUDIO</title>
     <meta name="description" content="ETC. Estudio crea muebles y objetos de diseño con foco en la simplicidad, la materialidad y el detalle.">
     <meta name="keywords" content="etc estudio, muebles de diseño, objetos, diseño contemporáneo, furniture">
@@ -14,58 +14,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha384-KyZXEAg3QhqLMpG8r+J6gZ6ISB9Jzt4vJlAy540u7u9p/6ogF4o5vI3i+U2K5s8x" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header class="site-header">
         <nav class="nav-pill">
-          <div class="logo">ETC. ESTUDIO</div>
+            <div>
+                <a href="../index.html" class="logo">ETC. ESTUDIO</a>
+              </div>
     
           <div class="nav-links">
-            <a href="./pages/nosotros.html">Sobre Nosotros</a>
+            <a href="./nosotros.html">Sobre Nosotros</a>
             <a href="https://tiendadeetcestudio.mitiendanube.com/contacto/" target="_blank" rel="noopener noreferrer">
                 Contacto
               </a>
-            <a class="product-btn" href="./pages/productos.html">Productos</a>
+            <a class="product-btn" href="#">Productos</a>
           </div>
         </nav>
       </header>
     
       <main class="home">
     
-        <section class="hero">
-            <video autoplay muted loop playsinline>
-                <source src="images/herovideo.mp4" type="video/mp4">
-              </video>
-          <div class="overlay"></div>
-    
-          <h1>ETC. ESTUDIO</h1>
-          <span class="location">BS. AS. ARG</span>
-          <p class="subtitle">ESTUDIO DE DISEÑO INDEPENDIENTE</p>
-        </section>
-    
-        <section class="intro">
-          <div class="intro-text">
-            <p>
-              ETC. Estudio nace de una necesidad: muebles útiles y atemporales
-              que enriquezcan los espacios.
-            </p>
-    
-            <p>
-              No buscamos seguir tendencias ni responder a lo que pide el mercado —
-              diseñamos lo que nos inspira.
-            </p>
-          </div>
-    
-          <div class="intro-image">
-            <img src="images/intro.png" alt="">
-          </div>
-        </section>
-    
-        <section class="banner-image">
-          <img src="images/banner.jpg" alt="">
-        </section>
+        <section class="hero-productos">
+
+            <div class="hero-bg">
+              <img src="../images/hero.jpg" alt="Paisaje">
+            </div>
+          
+            <div class="hero-image">
+              <img src="../images/banner.jpg" alt="Silla">
+            </div>
+          
+          </section>
+          
+          <main class="productos-page">
+            <section class="productos-heading">
+              <h1>PRODUCTOS</h1>
+              <p>EN STOCK | ENTREGA INMEDIATA</p>
+            </section>
+          </main>
 
         <section id="projectsSection">
             <div class="projects">
@@ -77,7 +65,7 @@
                     <div class="row gx-3">
                         <div class="card-project col-12 col-md-6 col-xl-3"> 
                             <a href="https://tiendadeetcestudio.mitiendanube.com/productos/perchero-15jy1/" target="_blank" rel="noopener noreferrer">
-                                <img src="./images/products/p1.jpg" alt="Openline">
+                                <img src="../images/products/p1.jpg" alt="Openline">
                               </a>
                             <div class="project-info">
                                 <h3>Perchero</h3>
@@ -86,7 +74,7 @@
                         </div>
                         <div class="card-project col-12 col-md-6 col-xl-3"> 
                             <a href="https://tiendadeetcestudio.mitiendanube.com/productos/perchero-15jy1/" target="_blank" rel="noopener noreferrer">
-                                <img src="./images/products/p2.jpg" alt="Openline">
+                                <img src="../images/products/p2.jpg" alt="Openline">
                               </a>
                             <div class="project-info">
                                 <h3>Escritorio</h3>
@@ -95,7 +83,7 @@
                         </div>
                         <div class="card-project col-12 col-md-6 col-xl-3"> 
                             <a href="https://tiendadeetcestudio.mitiendanube.com/productos/perchero-15jy1/" target="_blank" rel="noopener noreferrer">
-                                <img src="./images/products/p3.jpg" alt="Openline">
+                                <img src="../images/products/p3.jpg" alt="Openline">
                               </a>
                             <div class="project-info">
                                 <h3>Banqueta</h3>
@@ -104,7 +92,7 @@
                         </div>
                         <div class="card-project col-12 col-md-6 col-xl-3"> 
                             <a href="https://tiendadeetcestudio.mitiendanube.com/productos/perchero-15jy1/" target="_blank" rel="noopener noreferrer">
-                                <img src="./images/products/p4.jpg" alt="Openline">
+                                <img src="../images/products/p4.jpg" alt="Openline">
                               </a>
                             <div class="project-info">
                                 <h3>Banco</h3>
@@ -117,9 +105,18 @@
             </div>
         </section>
     
-        <section class="made-in">
-          HECHO A MANO EN ARGENTINA.
-        </section>
+        <section class="productos-text">
+            <p>
+              En etc. estudio elegimos hacer menos, pero mejor.
+              Nos enfocamos en pocos modelos para asegurar la máxima
+              calidad en cada pieza.
+            </p>
+      
+            <p>
+              Trabajamos solo con stock disponible para poder ofrecer
+              entregas inmediatas, sin demoras ni plazos inciertos.
+            </p>
+          </section>
     
       </main>
     
