@@ -2,6 +2,7 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .hero-nosotros {
@@ -73,6 +74,7 @@
 
 .nosotros-page {
   padding: 120px 30px 80px;
+  background-color: #F9F9F9;
 }
 
 .about-text {

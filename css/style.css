@@ -562,6 +562,7 @@ img {
   height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: #fff;
 }
 
 .hero-nosotros {
@@ -633,6 +634,7 @@ img {
 
 .nosotros-page {
   padding: 120px 30px 80px;
+  background-color: #F9F9F9;
 }
 
 .about-text {
@@ -1015,6 +1017,86 @@ img {
     height: 720px;
     object-fit: cover;
     display: block;
+  }
+}
+@media (max-width: 1100px) and (max-width: 800px) {
+  .hero-image {
+    position: relative;
+    z-index: 2;
+    margin-top: 60px;
+    transform: translateY(80px);
+  }
+  .hero-image img {
+    width: 280px;
+    display: block;
+  }
+  .productos-page {
+    padding: 180px 16px 0px;
+  }
+  .productos-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .productos-text {
+    width: 80%;
+    margin-left: 16px;
+  }
+  .productos-text p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1100px) and (max-width: 800px) {
+  .about-hero {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 16px 40px;
+  }
+  .hero-title {
+    position: static;
+    order: 1;
+  }
+  .hero-title h1 {
+    font-size: 36px;
+  }
+  .hero-location {
+    position: static;
+    order: 2;
+    margin-top: 80px;
+    margin-bottom: 8px;
+  }
+  .hero-location p {
+    color: #000;
+  }
+  .hero-floating-image {
+    position: static;
+    order: 3;
+    width: 100%;
+    margin-top: 0px;
+    transform: translateX(0%);
+  }
+  .hero-floating-image img {
+    width: 100%;
+  }
+  .hero-nosotros,
+  .hero-bottom-text {
+    display: none;
+  }
+  .nosotros-page {
+    padding: 0;
+  }
+  .about-text {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 100px 24px 70px;
+    background: #f4f4f2;
+  }
+  .about-text p {
+    font-size: 16px;
+  }
+  .about-image {
+    margin-top: 0;
   }
 }
 
