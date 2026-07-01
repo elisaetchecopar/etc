@@ -61,9 +61,28 @@
       font-size: 14px;
     }
   }
+
+  .menu-container {
+    display: none;
+  }
   
   .product-btn {
-    padding: 8px 16px;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 14px;
   }
+
+
+  @media (max-width: 800px) {
+    .nav-pill {
+      width: 90%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .menu-container {
+      display: block;
+    }
+  }
+  

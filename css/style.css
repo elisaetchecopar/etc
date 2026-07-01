@@ -55,12 +55,26 @@ a {
   font-size: 14px;
 }
 
-.product-btn {
-  padding: 8px 16px;
-  border-radius: 4px;
-  background: rgb(0, 0, 0);
+.menu-container {
+  display: none;
 }
 
+.product-btn {
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .nav-pill {
+    width: 90%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu-container {
+    display: block;
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -307,8 +321,27 @@ h6 {
   color: #666;
 }
 
-#projectsSection .container {
-  width: 97%;
+@media (max-width: 800px) {
+  .footer {
+    padding: 50px 16px 30px;
+  }
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-brand {
+    margin-bottom: 46px;
+    white-space: nowrap;
+  }
+  .footer-links,
+  .footer-contact {
+    gap: 8px;
+  }
+  .footer-links {
+    margin-bottom: 40px;
+  }
+  .footer-contact {
+    margin-right: 0;
+  }
 }
 #projectsSection .container button {
   background: black;
@@ -861,44 +894,6 @@ img {
   main {
     overflow-x: hidden;
   }
-  header {
-    padding: 16px;
-  }
-  header .navbar {
-    width: 100%;
-  }
-  header .puie-nav {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  header .navbar-brand {
-    order: 2;
-    position: absolute;
-    left: 47%;
-    top: 24px;
-  }
-  header .navbar-toggler {
-    border: none;
-    background-color: #F9F9F9;
-  }
-  header .button.nvbar-togg {
-    background-color: #F9F9F9;
-  }
-  .intro {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 60px 20px;
-    gap: 40px;
-  }
-  .intro-text {
-    width: 100%;
-  }
-  .intro-image {
-    width: 100%;
-  }
   /* Productos mobile */
   #projectsSection {
     margin-left: 20px;
@@ -915,6 +910,45 @@ img {
   }
   #projectsSection .container .card-puie p {
     padding-bottom: 0px;
+  }
+}
+@media (max-width: 1100px) and (max-width: 800px) {
+  .hero h1 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  .hero .location {
+    display: none;
+  }
+}
+@media (max-width: 1100px) and (max-width: 800px) {
+  .intro {
+    padding: 110px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .intro-text {
+    width: 100%;
+  }
+  .intro-image {
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .banner-image {
+    padding: 0;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+  .banner-image img {
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    display: block;
   }
 }
 

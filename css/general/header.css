@@ -55,10 +55,25 @@ a {
   font-size: 14px;
 }
 
+.menu-container {
+  display: none;
+}
+
 .product-btn {
-  padding: 8px 16px;
-  border-radius: 4px;
-  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .nav-pill {
+    width: 90%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu-container {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

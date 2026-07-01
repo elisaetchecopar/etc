@@ -35,3 +35,32 @@
     font-size: 12px;
     color: #666;
   }
+
+
+  @media (max-width: 800px) {
+    .footer {
+      padding: 50px 16px 30px;
+    }
+  
+    .footer-top {
+      flex-direction: column;
+    }
+  
+    .footer-brand {
+      margin-bottom: 46px;
+      white-space: nowrap;
+    }
+  
+    .footer-links,
+    .footer-contact {
+      gap: 8px;
+    }
+  
+    .footer-links {
+      margin-bottom: 40px;
+    }
+  
+    .footer-contact {
+      margin-right: 0;
+    }
+  }
